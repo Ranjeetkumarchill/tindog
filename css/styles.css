@@ -1,0 +1,152 @@
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+    padding-bottom: 100px;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.rotate{
+    transform: rotate(40deg);
+    width: 60%;
+    position: absolute;
+}
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.download-button{
+    margin: 5% 4% 0 0;
+}
+.for{
+    color: #ef8172;
+    object-position: center;
+
+}
+.for:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 7% 15% 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+p{
+    font-weight: bold;
+}
+.features-box{
+    padding: 5%;
+    text-align: center;
+}
+h3{
+    margin-top: 1rem;
+}
+#testimonials{
+    text-align: center;
+    color: #fff;
+    background-color:#ff4c68 ;
+}
+.testonomial-img{
+    margin: 2%;
+    border-radius: 100%;
+    width: 10%;
+}
+em{
+    font-weight: bold;
+    font-size: 125%;
+}
+#press{
+    background-color: #ff4c68;
+}
+.press-img{
+    width: 20%;
+    margin: 0 2%;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.press-box{
+    margin: 0 15% 0 15%;
+    padding-bottom: 7%;
+}
+.card{
+    padding-left: 0;
+    padding-right: 0;
+}
+.ff{
+    padding: 0;
+    margin: 0;
+}
+.dd{
+    margin: 0 60px;
+    padding-bottom: 20px;
+}
+.pricing-box{
+    text-align: center;
+    margin: 5% 10%;
+
+}
+.gg{
+    margin-top: 15px;
+}
+@media(max-width:1135px)
+{
+    .rotate{
+        transform: rotate(0);
+    }
+}
+@media(max-width:994px)
+{
+    #title{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .rotate{
+        position: relative;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 10%;
+}
+.btm-text{
+    font-family: "Montserrat-Black",sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 2% 10% 1%;
+}
+.x{
+    padding:2px 4px;
+}
+.my{
+    color: darkorchid;
+}
